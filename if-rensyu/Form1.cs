@@ -46,5 +46,11 @@ namespace if_rensyu
         {
             vx = -10;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            vx = Math.Abs(vx);
+
+        }
     }
 }
